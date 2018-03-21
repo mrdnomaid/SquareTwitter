@@ -1,4 +1,4 @@
-# SquareTwitter
-Make Twitter's UI square again!
+# UserStyles
+My various CSS tweaks for websites
 ---
-Use something like [Styler](https://chrome.google.com/webstore/detail/styler/bogdgcfoocbajfkjjolkmcdcnnellpkb) to apply.
+Use something like [Stylus](https://add0n.com/stylus.html) to apply.
