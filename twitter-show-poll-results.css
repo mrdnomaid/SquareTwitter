@@ -1,0 +1,7 @@
+/* Show Twitter poll results before voting */
+
+.PollXChoice-progress {
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0.3em !important;
+}
