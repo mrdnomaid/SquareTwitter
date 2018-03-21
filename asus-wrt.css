@@ -1,0 +1,162 @@
+/*
+  https://github.com/mrdnomaid/ASUS-WRT-Theme
+*/
+
+* {
+  /*font-family: 'Roboto Slab', sans-serif !important;*/
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  background-color: #111;
+}
+
+.banner1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.banner1 .titlebtn {
+  float: right;
+}
+
+#TopBanner .banner1, #TopBanner td, .content, .bottom-image, .NM_table {
+  background: #111;
+  border: none;
+}
+
+.statusBar td {
+  height: 50px;
+}
+
+#mainMenu {
+  margin-top: -50px !important;
+}
+
+#NM_table {
+  height: 80% !important;
+}
+
+#_cloud_main {
+  margin-bottom: 25px;
+}
+
+#ssidTitle, .menu_QIS_title, #selected_lang, #ParentalControl_menu, #Advanced_IPv6_Content_menu, #Advanced_BasicFirewall_Content_menu, #footer {
+  display: none;
+}
+
+#QoS_EZQoS_menu td.menu_Desc::after {
+  content: 'QoS/Traffic';
+  visibility: visible;
+  position: relative;
+  left: 47px;
+  bottom: 6px;
+}
+
+#QoS_EZQoS_menu td.menu_Desc {
+  visibility: hidden;
+  position: relative;
+  right: 105px;
+}
+
+.content div {
+  margin-top: 0 !important;
+}
+
+.menu_Split {
+  display: none;
+}
+
+.menu {
+  width: 181px;
+  height: auto;
+  padding: 2px;
+  /*     margin: 10px; */
+}
+
+.menu_Icon {
+  /* 	display: none; */
+}
+
+#tabMenu {
+  margin-top: 0;
+}
+
+.clientBg {
+  /*     background: none; */
+}
+
+#client_list_Block td[colspan="2"] {
+  /* 	display: none; */
+}
+
+#client_list_Block .radioIcon {
+  position: relative;
+  top: -10px;
+}
+
+#client_list_Block .band_block {
+  position: relative;
+  top: -10px;
+}
+
+.imgUserIcon {
+  background: none;
+  /*     padding: 2px; */
+}
+
+.tab {
+  border: none;
+  background: #111;
+}
+
+.tab, .tabclick {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab span, .tabclick span {
+  background: none;
+}
+
+.tabclick, .statusTitle {
+  background: #4D595D;
+}
+
+.tabclick *:hover {
+  cursor: not-allowed;
+}
+
+.titlebtn, .titlebtn span, .button_gen, .m_qis_r, #selected_lang {
+  background: #3A4042;
+  border-radius: 5px;
+  border: none;
+}
+
+.titlebtn:hover, .titlebtn span:hover, .button_gen:hover, .m_qis_r:hover, .tab:hover, .menu:hover, .menu_clicked, .menuClicked, #selected_lang:hover {
+  background: #333;
+}
+
+.bottom-image, .content {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.copyright {
+  margin-top: 3px;
+  color: #fff;
+  display: block !important;
+}
+
+
+/*
+.copyright::before {
+
+
+: '© '
+}
+.copyright::after {
+    content: ' CSS tweaks by dnomaid'
+}
+*/
