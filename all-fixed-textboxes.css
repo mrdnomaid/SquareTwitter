@@ -1,4 +1,5 @@
-/*My GTK theme combined with Firefox's dark themes has dark text on dark backgground for textboxes and stuff*/
+/*My GTK theme combined with Firefox's dark themes has dark text on dark background for textboxes and stuff*/
+/* Apply to regex '.*' */
 
 textarea, input {
 	background-color: inherit;
