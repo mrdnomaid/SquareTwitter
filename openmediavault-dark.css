@@ -1,0 +1,11 @@
+/*.x-panel-body-default, .x-splitter {
+    background-color: #000;
+}
+
+.thumb-wrap, .x-tree-view, .x-toolbar-default, .x-panel-header-default  {
+	filter: invert(1);
+}*/
+
+body {
+ 	filter: invert(1);
+}
