@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono');
-
 body {
   font-family: 'Ubuntu', 'IBM Plex Sans', 'Helvetica', sans-serif;
 }
@@ -12,4 +11,12 @@ h1, h2, h3 {
   background-image: url('https://pi.dnomaid.co.uk/_img/emby/tomsemby.png') !important;
   transform: scale(2);
   background-position: 35%;
+}
+
+.supporterPromotionContainer {
+  display: none;
+}
+
+.mainDrawerButton {
+  z-index: 999;
 }
