@@ -22,8 +22,8 @@ h1, h2, h3 {
 }
 
 .videoSubtitlesInner {
-  background-color: #111;
-  color: #ddd;
-  text-shadow: none;
-  border-radius: 4px;
+  background-color: #111 !important;
+  color: #ddd !important;
+  text-shadow: none !important;
+  border-radius: 4px !important;
 }
