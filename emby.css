@@ -13,10 +13,11 @@ h1, h2, h3 {
   background-position: 35%;
 }
 
-.supporterPromotionContainer {
+.supporterPromotionContainer, .verticalSection.appInfoSection {
   display: none;
 }
 
 .mainDrawerButton {
   z-index: 999;
 }
+
