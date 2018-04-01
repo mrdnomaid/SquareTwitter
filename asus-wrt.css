@@ -2,10 +2,13 @@
   https://github.com/mrdnomaid/ASUS-WRT-Theme
 */
 
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 * {
   /*font-family: 'Roboto Slab', sans-serif !important;*/
   text-shadow: none !important;
   box-shadow: none !important;
+  font-family: 'Ubuntu Mono', monospace !important;
 }
 
 body {
@@ -160,3 +163,4 @@ body {
     content: ' CSS tweaks by dnomaid'
 }
 */
+    
