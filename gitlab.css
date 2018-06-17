@@ -1,0 +1,47 @@
+body, body * {
+       line-height: 15px !important;
+}
+
+.project-home-panel {
+    padding-top: 0;
+}
+
+.tree-holder .tree-table tr td, .tree-holder .tree-table tr th {
+    line-height: 12px;
+}
+
+.info-well .well-segment {
+    padding: 8px;
+}
+
+.project-home-panel {
+    padding-top: 16px;
+}
+
+.shortcuts-container-registry, .shortcuts-operations, .breadcrumbs-container, .project-badges, .alert-wrapper, #notifications-button {
+    display: none !important;
+}
+
+.project-home-desc {
+    max-width: none;
+}
+
+#content-body .avatar-container {
+    position: relative;
+    float: left !important;
+}
+
+.group-buttons {
+    float: right;
+position: relative;
+top: -32px;
+}
+
+.group-nav-container {
+    display: block !important;
+    width: 100%;
+}
+
+.group-nav-container .nav-controls {
+    width: 100% !important;
+}
