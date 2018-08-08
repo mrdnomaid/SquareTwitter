@@ -1,0 +1,59 @@
+.app-card-list,
+.dashboard,
+.appTableView,
+.appScrollable,
+.appViewCenterPanel,
+.appActionBar {
+    background-color: #111 !important;
+    color: #eee !important;
+}
+.appInfoBox__content {
+    color: #eee !important;
+}
+.button__icon {
+    color: #00a0df !important;    
+}
+.app-card,
+.appTable--light,
+.device--row,
+.notifications--filter-bar {
+    color: #eee !important;
+    background-color: #222 !important;
+}
+.app-card--network,
+tr:hover:not(.is-row-selected),
+tr:nth-child(2n):not(.is-row-selected) {
+    color: #eee !important;
+    background-color: #333 !important;
+}
+td[name='poe'] .appBadge,
+.is-row-disabled {
+    color: #999 !important;
+}
+.app-banner {
+    display: none !important;
+}
+.notifications--filter select, .notifications--filter .select::after {
+    color: #888 !important;
+}
+.notifications--list {
+    height: calc(100% - 50px) !important;
+}
+.notification--box__title {
+    background-color: #333 !important;
+    color: #aaa !important;
+}
+.notification--box__content {
+    background-color: #444 !important;
+    color: #eee !important;
+}
+.statusBar {
+    background-color: #333 !important;
+}
+.filter--button:not(.active) {
+    border-top: 5px solid #333 !important;
+}
+
+.appTable--hoverable .tbody .tr:hover:not(.is-row-selected), .appTable--hoverable .tbody tr:hover:not(.is-row-selected), .appTable--hoverable tbody .tr:hover:not(.is-row-selected), .appTable--hoverable tbody tr:hover:not(.is-row-selected) {
+    background-color: #555 !important;
+}
